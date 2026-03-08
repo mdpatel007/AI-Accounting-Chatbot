@@ -70,19 +70,19 @@ hellobooks-rag-assistant/
 
 ## ⚙️ Installation & Setup
 
-# 1. Clone the Repository
+### 1. Clone the Repository
 ```Bash
-git clone [https://github.com/mdpatel007/hellobooks-rag-assistant.git](https://github.com/mdpatel007/hellobooks-rag-assistant.git)
+git clone [[https://github.com/mdpatel007/hellobooks-rag-assistant.git](https://github.com/mdpatel007/hellobooks-rag-assistant.git)](https://github.com/mdpatel007/AI-Accounting-Chatbot.git)
 
 cd hellobooks-rag-assistant 
 ```
 
-# 2. Install Dependencies
+### 2. Install Dependencies
 ```Bash
 pip install -r requirements.txt
 ```
 
-# 3. Environment Configuration
+### 3. Environment Configuration
 Create a .env file in the root directory and add your credentials:
 
 ```Bash
@@ -92,13 +92,14 @@ MONGO_URI=your_mongo_connection_string
 MONGO_DB=chatdb
 ```
 
-# 4. Run the Application
+### 4. Run the Application
 Start Backend (FastAPI):
 
 ```Bash
 uvicorn main:app --reload
-Start Frontend (Streamlit):
 ```
+
+Start Frontend (Streamlit):
 
 ```Bash
 streamlit run ui.py
@@ -109,13 +110,13 @@ streamlit run ui.py
 ## 🐳 Docker Support
 To run the application using Docker:
 
-# 1. Build the Image:
+### 1. Build the Image:
 
 ```Bash
 docker build -t hellobooks-ai .
 ```
 
-# 2. Run the Container:
+### 2. Run the Container:
 
 ```Bash
 docker run -p 8000:8000 hellobooks-ai
