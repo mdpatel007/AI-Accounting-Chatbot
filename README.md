@@ -130,5 +130,14 @@ docker run -p 8000:8000 hellobooks-ai
 - "What information should be included in a standard invoice?"
 - "Explain the importance of a Cash Flow statement."
 
+## 📸 Screenshots
+<img width="1920" height="1080" alt="Screenshot 2026-03-08 204707" src="https://github.com/user-attachments/assets/4ce64d37-9d59-4a5e-bff9-db8c55d03904" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-08 204806" src="https://github.com/user-attachments/assets/7264c249-3965-4e00-857e-9f49823d13ae" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-08 204841" src="https://github.com/user-attachments/assets/7a7782a5-8a59-4c58-bd1d-be6ce2ca4aec" />
+
+--
+
 ## 👤 Author
 Mihir Dudhat
